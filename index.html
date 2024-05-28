@@ -12,38 +12,40 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<!-- add skip links --->
-<ul class="skip-links">
-  
-  <li><a href="#home">Skip to Home</a></li>
-  <li><a href="#products">Skip to Products</a></li>
-  <li><a href="#reservation">Skip to reservation</a></li>
-  <li><a href="#studio">Skip to studio</a></li>
-</ul>
 <body>
+
+<!-- add skip links --->
+<nav class="skip-links">
+  <ul>
+    <li><a href="#home">Skip to Home</a></li>
+    <li><a href="#products">Skip to Products</a></li>
+    <li><a href="#reservation">Skip to reservation</a></li>
+    <li><a href="#studio">Skip to studio</a></li>
+  </ul>
+  </nav>
   <div class="container">
-    <div class="site-header">
+    <header class="site-header">
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <nav class="main-nav">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#products">Products</a></li>
           <li><a href="#reservation">Reservation</a></li>
           <li><a href="#studio">Studio</a></li>
         </ul>
-      </div>
+      </nav>
       
       <img src="https://placekitten.com/1200/900" class="banner">
-    </div>
+    </header>
     
-    <div id="home" class="main-content"> 
+    <main id="home" class="main-content"> 
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
     
 
-      <div id="product" class="owner">
-        <h1>Meet the owner</h1>
+      <section id="product" class="owner">
+        <h2>Meet the owner</h2>
         <!-- Add Schema Information where applicable. -->
         <!-- with schema or microdata -->
         <ul itemscope itemtype="https://schema.org/Person">
@@ -62,16 +64,16 @@
           <p itemprop="postalCode">B3T 0L0</p>
           </div> -->
 
-        <h1>Address</h1>
+        <h2>Address</h2>
         <p>
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
           B3T 0L0
         </p>
-      </div>
-      <div id="reservation" class="contact-section">
-        <h1>Contact Us</h1>
+      </section>
+      <section id="reservation" class="contact-section">
+        <h3>Contact Us</h3>
         <form action="thanks.html">
           <label>Full Name</label>
           <input type="text" placeholder="Full Name">
@@ -82,12 +84,12 @@
           add aria-label
           <button type="submit" aria-label="Send message">Send</button>
         </form>
-      </div>
-    </div>
-    <div class="site-footer">
+      </section>
+    </main>
+    <footer class="site-footer">
       &copy; 2021 Jam Box Studios
-    </div>
-  </div>
+    </footer>
+  </header>
 </body>
 
 </html>
